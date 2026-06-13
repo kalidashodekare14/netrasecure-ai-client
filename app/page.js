@@ -6,6 +6,7 @@ import WhyChooseUs from "@/components/WhyChooseUs";
 import HowItWorks from "@/components/HowItWorks";
 import TrustSecurity from "@/components/TrustSecurity";
 import PlatformShowcase from "@/components/PlatformShowcase";
+import ChatbotSection from "@/components/ChatbotSection";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <HowItWorks />
       <TrustSecurity />
       <PlatformShowcase />
+      <ChatbotSection />
     </>
   );
 }
