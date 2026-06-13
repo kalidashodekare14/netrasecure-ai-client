@@ -8,6 +8,10 @@ import TrustSecurity from "@/components/TrustSecurity";
 import PlatformShowcase from "@/components/PlatformShowcase";
 import ChatbotSection from "@/components/ChatbotSection";
 import UrlScannerSection from "@/components/UrlScannerSection";
+import Testimonials from "@/components/Testimonials";
+import ContactForm from "@/components/ContactForm";
+import FinalCTA from "@/components/FinalCTA";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -22,6 +26,10 @@ export default function Home() {
       <PlatformShowcase />
       <UrlScannerSection />
       <ChatbotSection />
+      <Testimonials />
+      <ContactForm />
+      <FinalCTA />
+      <Footer />
     </>
   );
 }
