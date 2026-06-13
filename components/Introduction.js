@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function Introduction() {
   return (
-    <section id="features" className="relative px-4 py-24 sm:px-6 lg:px-8">
+    <section className="relative px-4 py-24 sm:px-6 lg:px-8">
       <div className="mx-auto flex max-w-7xl flex-col items-center gap-16 lg:flex-row">
         <motion.div
           initial={{ opacity: 0, x: -40 }}

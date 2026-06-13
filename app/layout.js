@@ -7,8 +7,9 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "NetraSecure AI",
-  description: "Premium AI-Powered Cybersecurity Solutions",
+  title: "NetraSecure AI - AI-Powered Cybersecurity Platform",
+  description:
+    "NetraSecure AI is an AI-powered cybersecurity platform that protects your digital world with advanced threat detection, URL scanning, deepfake detection, and real-time monitoring.",
 };
 
 export default function RootLayout({ children }) {
